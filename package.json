@@ -1,0 +1,26 @@
+{
+  "name": "otakuverse-main---con-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+    "sass:watch": "sass --watch scss/style.scss  css/style.css",
+    "build":"purgecss --css/style.css --content *.html -o css/reducido.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shezedeth/otakuverse-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shezedeth/otakuverse-web/issues"
+  },
+  "homepage": "https://github.com/Shezedeth/otakuverse-web#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "sass": "^1.55.0"
+  }
+}

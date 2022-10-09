@@ -1,0 +1,292 @@
+main {
+    background-color: rgba(0, 0, 0, 0.363);
+}
+#ultimas-noticias{
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+h1{
+    text-align:center;
+    position: relative;
+    color: #fff;
+    font-size: 0.8rem;
+}
+.card1{
+    width: 100%;
+    height: 30vh;
+    padding: 10px;
+    display: flex;
+    box-shadow:0 5px 10px rgba(0,0,0,.2);
+    border-radius: 10px;
+    align-items: center;
+    justify-content:center;
+    background: url(../img/juego3.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    transition: .3s;    
+}
+.card2{
+    width: 100%;
+    height: 30vh;
+    padding: 10px;
+    display: flex;
+    box-shadow:0 5px 10px rgba(0,0,0,.2);
+    border-radius: 10px;
+    align-items: center;
+    justify-content:center;
+    background: url(../img/noticias1.jpeg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    transition: .3s;    
+}
+.card3{
+    width: 100%;
+    height: 30vh;
+    padding: 10px;
+    display: flex;
+    box-shadow:0 5px 10px rgba(0,0,0,.2);
+    border-radius: 10px;
+    align-items: center;
+    justify-content:center;
+    background: url(../img/juego3.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    transition: .3s;    
+}
+.card4{
+    width: 100%;
+    height: 30vh;
+    padding: 10px;
+    display: flex;
+    box-shadow:0 5px 10px rgba(0,0,0,.2);
+    border-radius: 10px;
+    align-items: center;
+    justify-content:center;
+    background: url(../img/noticias1.jpeg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    transition: .3s;    
+}
+.card-texto{
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    font-size: 0.5rem;
+    background-color: #050505a5;
+    position:relative;
+    text-align:left;
+}
+@media (min-width:768px) {
+    #ultimas-noticias{
+        width: 100%;
+        height: 35vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    h1{
+        text-align:center;
+        position: relative;
+        color: #fff;
+        font-size: 0.8rem;
+    }
+    .card1{
+        width: 100%;
+        height: 60vh;
+        padding: 10px;
+        display: flex;
+        box-shadow:0 5px 10px rgba(0,0,0,.2);
+        border-radius: 10px;
+        align-items: center;
+        justify-content:center;
+        background: url(../img/juego3.jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        transition: .3s;    
+    }
+    .card2{
+        width: 100%;
+        height: 60vh;
+        padding: 10px;
+        display: flex;
+        box-shadow:0 5px 10px rgba(0,0,0,.2);
+        border-radius: 10px;
+        align-items: center;
+        justify-content:center;
+        background: url(../img/noticias1.jpeg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        transition: .3s;    
+    }
+    .card3{
+        width: 100%;
+        height: 60vh;
+        padding: 10px;
+        display: flex;
+        box-shadow:0 5px 10px rgba(0,0,0,.2);
+        border-radius: 10px;
+        align-items: center;
+        justify-content:center;
+        background: url(../img/juego3.jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        transition: .3s;    
+    }
+    .card4{
+        width: 100%;
+        height: 60vh;
+        padding: 10px;
+        display: flex;
+        box-shadow:0 5px 10px rgba(0,0,0,.2);
+        border-radius: 10px;
+        align-items: center;
+        justify-content:center;
+        background: url(../img/noticias1.jpeg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        transition: .3s;    
+    }
+    .card-texto{
+        color: #fff;
+        height: 100%;
+        width: 100%;
+        font-size: 0.5rem;
+        background-color: #050505a5;
+        position:relative;
+        text-align:left;
+    }
+
+}
+@media (min-width:1200px){
+    main {
+        background-color: rgba(0, 0, 0, 0.363);
+    }
+    #ultimas-noticias{
+        width: 100%;
+        height: 35vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    h1{
+        text-align:center;
+        position: relative;
+        color: #fff;
+        font-size: 2rem;
+    }
+    .card-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+    .card1{
+        padding: 20px;
+        width:50%;
+        height: 60vh;
+        padding: 10px;
+        box-shadow:0 5px 10px rgba(0,0,0,.2);
+        border-radius: 10px;
+        align-items: center;
+        justify-content:center;
+        background: url(../img/juego3.jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        transition: .3s;    
+        &:hover{
+        width:50%;
+        height: 60vh;
+        padding: 10px;
+        align-items: center;
+        justify-content:center;
+        background: url(../img/juego3-2.jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        }
+    }
+    .card2{
+        width:50%;
+        height: 60vh;
+        padding: 10px;
+        box-shadow:0 5px 10px rgba(0,0,0,.2);
+        border-radius: 10px;
+        align-items: center;
+        justify-content:center;
+        background: url(../img/noticias1.jpeg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        transition: .3s;    
+        &:hover{
+        width:50%;
+        height: 60vh;
+        padding: 10px;
+        align-items: center;
+        justify-content:center;
+        background: url(../img/news-img5.jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        }
+    }
+    .card3{
+        width:50%;
+        height: 60vh;
+        padding: 10px;
+        box-shadow:0 5px 10px rgba(0,0,0,.2);
+        border-radius: 10px;
+        align-items: center;
+        justify-content:center;
+        background: url(../img/juego3.jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        transition: .3s;    
+        &:hover{
+        width:50%;
+        height: 60vh;
+        padding: 10px;
+        align-items: center;
+        justify-content:center;
+        background: url(../img/juego3-2.jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        }
+    }
+    .card4{
+        width:50%;
+        height: 60vh;
+        padding: 10px;
+        box-shadow:0 5px 10px rgba(0,0,0,.2);
+        border-radius: 10px;
+        align-items: center;
+        justify-content:center;
+        background: url(../img/noticias1.jpeg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        transition: .3s;    
+        &:hover{
+        width:50%;
+        height: 60vh;
+        padding: 10px;
+        align-items: center;
+        justify-content:center;
+        background: url(../img/news-img5.jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        }
+    }
+    .card-texto{
+        color: #fff;
+        height:50%;
+        width: 100%;
+        background-color: #05050555;
+        position:relative;
+        padding: 10px;
+        text-align:left;
+    }
+}

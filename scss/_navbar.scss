@@ -1,0 +1,31 @@
+//nesting
+#botonera{
+    width: 100%;
+    img {
+        width: 250px;
+    }
+    ul li a{
+        color: #fff ;
+    }
+    .dropdown-menu {
+        background: #000;
+        color: #fff ;
+        font-size: 0.7rem;
+        li a {
+            background: #000;
+        }
+    }
+
+    .navbar-toggler{
+        color: #fff;
+    }
+}
+
+
+.img-link {
+    position: absolute;
+    bottom: 0;
+}
+.bg-black {
+    background: #000;
+}
