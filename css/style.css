@@ -3,7 +3,11 @@ main {
   background-color: rgba(0, 0, 0, 0.363);
 }
 
-#ultimas-noticias {
+.img-titulo img {
+  display: none;
+}
+
+.ultimas-noticias {
   width: 100%;
   height: 35vh;
   display: flex;
@@ -16,81 +20,12 @@ h1, .h1 {
   text-align: center;
   position: relative;
   color: #fff;
-  font-size: 0.8rem;
-}
-
-.card1 {
-  width: 100%;
-  height: 30vh;
-  padding: 10px;
-  display: flex;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
-  align-items: center;
-  justify-content: center;
-  background: url(../img/juego3.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  transition: 0.3s;
-}
-
-.card2 {
-  width: 100%;
-  height: 30vh;
-  padding: 10px;
-  display: flex;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
-  align-items: center;
-  justify-content: center;
-  background: url(../img/noticias1.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  transition: 0.3s;
-}
-
-.card3 {
-  width: 100%;
-  height: 30vh;
-  padding: 10px;
-  display: flex;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
-  align-items: center;
-  justify-content: center;
-  background: url(../img/juego3.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  transition: 0.3s;
-}
-
-.card4 {
-  width: 100%;
-  height: 30vh;
-  padding: 10px;
-  display: flex;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
-  align-items: center;
-  justify-content: center;
-  background: url(../img/noticias1.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  transition: 0.3s;
-}
-
-.card-texto {
-  color: #fff;
-  height: 100%;
-  width: 100%;
-  font-size: 0.5rem;
-  background-color: rgba(5, 5, 5, 0.6470588235);
-  position: relative;
-  text-align: left;
+  font-size: 0.2rem;
+  background: rgb(1, 5, 62);
 }
 
 @media (min-width: 768px) {
-  #ultimas-noticias {
+  .ultimas-noticias {
     width: 100%;
     height: 35vh;
     display: flex;
@@ -103,74 +38,25 @@ h1, .h1 {
     position: relative;
     color: #fff;
     font-size: 0.8rem;
-  }
-  .card1 {
-    width: 100%;
-    height: 60vh;
-    padding: 10px;
-    display: flex;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    align-items: center;
-    justify-content: center;
-    background: url(../img/juego3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: 0.3s;
-  }
-  .card2 {
-    width: 100%;
-    height: 60vh;
-    padding: 10px;
-    display: flex;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    align-items: center;
-    justify-content: center;
-    background: url(../img/noticias1.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: 0.3s;
-  }
-  .card3 {
-    width: 100%;
-    height: 60vh;
-    padding: 10px;
-    display: flex;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    align-items: center;
-    justify-content: center;
-    background: url(../img/juego3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: 0.3s;
-  }
-  .card4 {
-    width: 100%;
-    height: 60vh;
-    padding: 10px;
-    display: flex;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    align-items: center;
-    justify-content: center;
-    background: url(../img/noticias1.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: 0.3s;
+    background-color: rgba(80, 6, 78, 0.802);
   }
   .card-texto {
     color: #fff;
     height: 100%;
     width: 100%;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     background-color: rgba(5, 5, 5, 0.6470588235);
     position: relative;
     text-align: left;
   }
 }
 @media (min-width: 1200px) {
+  .img-titulo img {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 200px;
+  }
   main {
     background-color: rgba(0, 0, 0, 0.363);
   }
@@ -187,115 +73,7 @@ h1, .h1 {
     position: relative;
     color: #fff;
     font-size: 2rem;
-  }
-  .card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    align-content: flex-start;
-  }
-  .card1 {
-    padding: 20px;
-    width: 50%;
-    height: 60vh;
-    padding: 10px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    align-items: center;
-    justify-content: center;
-    background: url(../img/juego3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: 0.3s;
-  }
-  .card1:hover {
-    width: 50%;
-    height: 60vh;
-    padding: 10px;
-    align-items: center;
-    justify-content: center;
-    background: url(../img/juego3-2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .card2 {
-    width: 50%;
-    height: 60vh;
-    padding: 10px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    align-items: center;
-    justify-content: center;
-    background: url(../img/noticias1.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: 0.3s;
-  }
-  .card2:hover {
-    width: 50%;
-    height: 60vh;
-    padding: 10px;
-    align-items: center;
-    justify-content: center;
-    background: url(../img/news-img5.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .card3 {
-    width: 50%;
-    height: 60vh;
-    padding: 10px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    align-items: center;
-    justify-content: center;
-    background: url(../img/juego3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: 0.3s;
-  }
-  .card3:hover {
-    width: 50%;
-    height: 60vh;
-    padding: 10px;
-    align-items: center;
-    justify-content: center;
-    background: url(../img/juego3-2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .card4 {
-    width: 50%;
-    height: 60vh;
-    padding: 10px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    align-items: center;
-    justify-content: center;
-    background: url(../img/noticias1.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: 0.3s;
-  }
-  .card4:hover {
-    width: 50%;
-    height: 60vh;
-    padding: 10px;
-    align-items: center;
-    justify-content: center;
-    background: url(../img/news-img5.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .card-texto {
-    color: #fff;
-    height: 50%;
-    width: 100%;
-    background-color: rgba(5, 5, 5, 0.3333333333);
-    position: relative;
-    padding: 10px;
-    text-align: left;
+    background: transparent;
   }
 }
 .form-register {
@@ -329,11 +107,84 @@ label {
   margin-top: 50px;
 }
 
-#botonera {
+.mult-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ff0505;
+}
+
+.main-multimedia {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  width: 80%;
+  background-color: #2f1d58;
+  height: auto;
+  overflow: auto;
+  flex-direction: row;
+}
+.main-multimedia div {
+  width: 60%;
+  height: 100%;
+  margin: 25px;
+  background-color: lightblue;
+}
+.main-multimedia .videote {
   width: 100%;
 }
+
+.contenedor-vid-small {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  width: 65%;
+  background-color: #2f1d58;
+  height: auto;
+  overflow: auto;
+  flex-direction: column;
+}
+.contenedor-vid-small .vid-sm {
+  width: 200px;
+}
+
+element.style {
+  height: 100%;
+}
+
+.page.page1 .banner img {
+  width: auto;
+}
+
+fieldset,
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-user-select: none;
+  -moz-user-focus: none;
+  -moz-user-select: none;
+}
+
 #botonera img {
-  width: 250px;
+  width: 160px;
+}
+@media (min-width: 768px) {
+  #botonera img {
+    width: 300px;
+  }
+}
+@media (min-width: 1200px) {
+  #botonera img {
+    width: 450px;
+  }
 }
 #botonera ul li a {
   color: #fff;
@@ -350,13 +201,22 @@ label {
   color: #fff;
 }
 
-.img-link {
+#img-container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+#img-container .img-link {
   position: absolute;
   bottom: 0;
 }
 
-.bg-black {
-  background: #000;
+#banner {
+  width: 100%;
+}
+
+#text-img {
+  width: 100%;
 }
 
 /*!
@@ -11140,76 +11000,44 @@ textarea.form-control-lg {
   padding: 0;
   box-sizing: border-box;
   font-family: "letra piola", "Orbitron", sans-serif;
-}
-
-body {
-  background-image: url(../img/bg2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
   font-size: 15px;
 }
 
-.img-container {
-  display: flex;
-  position: relative;
-  justify-content: center;
-  width: 100%;
+.bg-index {
+  background: url(../img/bg-universo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-main img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
+.bg-news {
+  background: url(../img/bg-star.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-.img-a {
-  grid-area: imgA;
+.bg-work {
+  background: url(../img/bg-star.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-.img-b {
-  grid-area: imgB;
+.bg-multimedia {
+  background: url(../img/bg-universo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-.img-c {
-  grid-area: imgC;
+.bg-contact {
+  background: url(../img/bg-universo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-.img-d {
-  grid-area: imgD;
-}
-
-.img-e {
-  grid-area: imgE;
-}
-
-.img-f {
-  grid-area: imgF;
-}
-
-#galeria-noticias {
-  display: grid;
-  padding-top: 20px;
-  margin: 10px;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(6, 250px);
-  grid-template-areas: "imgA" "imgB" "imgC" "imgD" "imgE" "imgF";
-}
-
-@media (min-width: 768px) {
-  #galeria-noticias {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 250px);
-    grid-template-areas: "imgA imgB" "imgA imgC" "imgA imgD" "imgE imgF";
-  }
-}
-@media (min-width: 1200px) {
-  #galeria-noticias {
-    grid-template-columns: 25vw 50vw 25vw;
-    grid-template-rows: repeat(3, 20vw);
-    grid-template-areas: "imgA imgB imgC" "imgA imgD imgC" "imgA imgE imgF";
-  }
-}
 .iconos img {
   position: relative;
   width: 35px;
@@ -11217,62 +11045,20 @@ main img {
   margin: 10px;
 }
 
-.main-multimedia {
-  display: flex;
+.card-img-overlay {
+  font-size: 1rem;
+  top: 20%;
+  text-align: center;
 }
-
-.contenedor-vid-small {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  width: 700px;
-  height: auto;
-  padding-right: 25px;
+@media (min-width: 768px) {
+  .card-img-overlay {
+    top: 50%;
+  }
 }
-
-.videote {
-  margin-left: 150px;
-  margin-top: 10px;
-  width: 550px;
-  height: 400px;
-}
-
-.small-v {
-  position: relative;
-  margin: 15px 0 10px 0;
-  display: flex;
-  left: 0;
-  right: 0%;
-  float: right;
-}
-
-.h3-vid-big {
-  color: #fff;
-  margin: 50px 50px 0px 158px;
-}
-
-.p-videote {
-  color: #fff;
-  margin: 20px 50px 0px 158px;
-  width: 50%;
-}
-
-.h3-vid-small {
-  color: #fff;
-  margin-top: 20px;
-  margin-left: 8px;
-  font-size: 0.65rem;
-}
-
-.img-titulo {
-  display: block;
-  position: relative;
-}
-.img-titulo img {
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 200px;
+@media (min-width: 1200px) {
+  .card-img-overlay {
+    top: 50%;
+  }
 }
 
 .titulo-pagina {
@@ -11317,6 +11103,50 @@ main img {
   letter-spacing: 5px;
   margin: 50px 0px 0px 300px;
   color: #d9e7f5;
+}
+
+.card-text {
+  font-family: "roboto", sans-serif;
+  font-size: 1.2rem;
+}
+
+#img-card {
+  border-radius: 0;
+  border: 0;
+  background: transparent;
+  color: #f3f3f3;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-inner {
+  max-height: 34rem;
+}
+
+#title h1, #title .h1 {
+  color: #3891d9;
+}
+
+.vid-work {
+  position: relative;
+  width: 100%;
+}
+
+.vid-work-container {
+  position: absolute;
+}
+
+#works div {
+  border-radius: 0;
+  border: 0;
+  background: transparent;
+  color: #f3f3f3;
+}
+#works div h5, #works div .h5 {
+  font-family: "roboto", sans-serif;
+}
+#works div small, #works div .small {
+  font-family: "roboto", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */

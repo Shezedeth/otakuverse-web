@@ -1,39 +1,6 @@
-//extends
-//.btn-more{
-    // width: 100px;
-    // height: 30px;
-    // border: none;
-    // background: linear-gradient(to top, rgb(55, 87, 245,) rgb(1, 5, 62));
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
-    // &:hover{
-    //     background: linear-gradient(to top,rgb(1, 5, 62)rgb(55, 87, 245,));
-    //     cursor: pointer;
-    // }
-//}
-    // .btn-rounded{
-    //     @extend .btn-more;
-    //     border-radius: 4px;
-    // }
-
-//mixins
- @mixin media($breakpoint){
-    @if $breakpoint == mobile{
-        @media (min-width:280px){
-            @content;
-        }
-    }
-    @if $breakpoint == tablet{
-        @media (min-width:768px){
-            @content;
-        }    
-    }
-    @if $breakpoint == desktop{
-        @media (min-width:1200px){
-            @content;
-        }
-    } 
-}   
-
-//maps
+@mixin bg-pages ($img-fondo) {
+    background: $img-fondo;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
