@@ -1,26 +1,51 @@
-.form-register {
-    width: 600px;
-    background: #24303c;
-    padding: 30px;
-    margin: auto;
-    margin-top: 50px;
-    border-radius: 5px;
-    text-align: right;
+#formulario {
+    color: #fff;
+    padding: 15px;
+
+    label,
+    input,
+    option {
+        font-family: 'roboto', sans-serif;
+
+    }
 }
-label {
-    position: absolute;
-    color:#fff
-}
-.casillas {
+
+#mapa {
+    background: transparent;
     width: 100%;
-    margin-top: 22px;
-    font-size: 1rem;
+
+    iframe {
+        height: 350px;
+        padding: 8px;
+    }
 }
-#contacto {
-    width: 100%;
+
+@media (min-width:768px) {
+    #formulario {
+        padding: 50px 100px 40px 100px;
+    }
+
+    #mapa {
+        width: 100%;
+
+        iframe {
+            height: 430px;
+            padding: 10px;
+        }
+    }
 }
-.map {
-    width: 600px;
-    margin: auto;
-    margin-top: 50px;
+
+@media (min-width:1200px) {
+    #formulario {
+        padding: 50px 450px 40px 450px;
+    }
+
+    #mapa {
+        width: 100%;
+
+        iframe {
+            height: 430px;
+            padding: 50px 350px 40px 350px;
+        }
+    }
 }

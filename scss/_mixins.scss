@@ -4,3 +4,17 @@
     background-size: cover;
     background-attachment: fixed;
 }
+
+@mixin skill-text ($txt-z) {
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+    font-size: $txt-z;
+
+}
+
+@mixin skill-title ($title-size) {
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+    font-size: $title-size;
+
+}

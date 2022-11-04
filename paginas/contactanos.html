@@ -68,89 +68,116 @@
         </div>
     </nav>
     <!-- ends nav -->
-    <!--inicia header  -->
-    <header>
-        <div class="img-titulo">
-            <img src="../img/bg-titulo.jpg" alt="imagen del banner">
-        </div>
-
-    </header>
-    <!-- ends header -->
     <!-- inicia main -->
     <main>
         <main>
-            <section id="ultimas-noticias">
-                <h1 class="titulo-pagina">CONTACTANOS</h1>
-            </section >
-    <!-- ends header -->
-        </section>
-        <section class="form-register">
-            <form action="" id="contacto">
-                <label for="name">Nombre</label>
-                <input class="casillas" type="text" id="name">
-                <label for="mail">Email</label>
-                <input class="casillas" type="email" id="mail">
-                <label for="tel">Telefono</label>
-                <input class="casillas" type="tel" id="tel">
-                <label for="mensaje">Deja tu mensaje</label>
-                <textarea class="casillas" name="" id="mensaje" cols="30" rows="10"></textarea>
-                <input type="reset" value="Cancelar">
-                <input type="submit" value="Enviar">
-            </form>
-            
-        </section>
+            <section class="titulo-pagina text-light justify-content-center ">
+                <h1>CONTACTANOS</h1>
+            </section>
+            <!-- ends header -->
+            </section>
+            <section id="formulario">
+                <form class="row g-0 ">
+                    <div class="col-md-6 p-2">
+                        <label for="inputEmail4" class="form-label">Nombre</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6 p-2">
+                        <label for="inputPassword4" class="form-label">Apellido</label>
+                        <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-12 p-2">
+                        <label for="inputAddress" class="form-label">Email</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="ejemplo@gmail.com">
+                    </div>
+                    <div class="col-12 p-2">
+                        <label for="inputAddress2" class="form-label">Telefono</label>
+                        <input type="text" class="form-control" id="inputAddress2"
+                            placeholder="011-12345678">
+                    </div>
+                    <div class="col-md-6 p-2">
+                        <label for="inputCity" class="form-label">Ciudad</label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4 p-2">
+                        <label for="inputState" class="form-label">Provincia</label>
+                        <select id="inputState" class="form-select">
+                            <option selected>Elegir...</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2 p-2">
+                        <label for="inputZip" class="form-label">CP</label>
+                        <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    <div class="col-12 p-2">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                acepto recivir novedades
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12 p-2">
+                        <button type="submit" class="btn btn-primary">enviar</button>
+                    </div>
+                </form>
+
+            </section>
 
 
-        <section class="map">
             <!-- inicia map -->
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1596.4239210416001!2d-58.71258128581754!3d-34.543291269377356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbd0da2327ec5%3A0x199cbae0afdf6ecc!2sCatedral%20Santuario%20San%20Miguel%20Arc%C3%A1ngel!5e0!3m2!1ses-419!2sar!4v1661011309113!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
+            <div class="card p-2" id="mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1596.4239210416001!2d-58.71258128581754!3d-34.543291269377356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbd0da2327ec5%3A0x199cbae0afdf6ecc!2sCatedral%20Santuario%20San%20Miguel%20Arc%C3%A1ngel!5e0!3m2!1ses-419!2sar!4v1661011309113!5m2!1ses-419!2sar"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
 
-    </main> 
-    <!-- ends main -->
-    <!-- INICIA FOOTER -->
-    <div class="container-fluid">
-        <div class="row p-5 pb-2 bg-black text-white">
-            <div class="col-xs-12 col-md-6 col-lg-3">
-                <p class="h5">0TAKUVERSE</p>
-            </div>
-            <div class="col-xs-12 col-md-6 col-lg-3">
-                <p class="h5">Nuestras redes</p>
-                <div class="mb-0">
-                    <a class="iconos text-white text-decoration-none" href="http://www.facebook.com">
-                        <img src="../icons/icono-facebook.png" alt="Enlace a pagina de Facebook">facebook
-                    </a>
+        </main>
+        <!-- ends main -->
+        <!-- INICIA FOOTER -->
+        <div class="container-fluid">
+            <div class="row p-5 pb-2 bg-black text-white">
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p class="h5">0TAKUVERSE</p>
                 </div>
-                <div class="mb-0">   
-                    <a class="iconos text-white text-decoration-none" href="https://www.instagram.com/">
-                        <img src="../icons/icono-instagram.png" alt="Enlace a pagina de Instagram">Instagram
-                    </a>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p class="h5">Nuestras redes</p>
+                    <div class="mb-0">
+                        <a class="iconos text-white text-decoration-none" href="http://www.facebook.com">
+                            <img src="../icons/icono-facebook.png" alt="Enlace a pagina de Facebook">facebook
+                        </a>
+                    </div>
+                    <div class="mb-0">
+                        <a class="iconos text-white text-decoration-none" href="https://www.instagram.com/">
+                            <img src="../icons/icono-instagram.png" alt="Enlace a pagina de Instagram">Instagram
+                        </a>
+                    </div>
+                    <div class="mb-0">
+                        <a class="iconos text-white text-decoration-none" href="https://twitter.com/">
+                            <img src="../icons/icono-twitter.png" alt="Enlace a pagina de Twitter">Twitter
+                        </a>
+                    </div>
                 </div>
-                <div class="mb-0">    
-                    <a class="iconos text-white text-decoration-none" href="https://twitter.com/">
-                        <img src="../icons/icono-twitter.png" alt="Enlace a pagina de Twitter">Twitter
-                    </a>    
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p class="h5">Links</p>
+                    <div class="mb-3">
+                        <a class="iconos text-white text-decoration-none" href="#">Terminos y condiciones</a>
+                    </div>
+                    <div class="mb-3">
+                        <a class="iconos text-white text-decoration-none" href="#">Politica de privacidad</a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-xs-12 col-md-6 col-lg-3">
-                <p class="h5">Links</p>
-                <div class="mb-3">
-                    <a class="iconos text-white text-decoration-none" href="#">Terminos y condiciones</a>
-                </div>
-                <div class="mb-3">
-                    <a class="iconos text-white text-decoration-none" href="#">Politica de privacidad</a>
-                </div>
-            </div>
-            <div class="col-xs-12 col-md-6 col-lg-3">
-                <p class="h5 mb3">Colaboradores</p>
-                <div class="mb-3">
-                    <a class="iconos text-white text-decoration-none" href="#">AMD</a>
-                </div>
-                <div class="mb-3">
-                    <a class="iconos text-white text-decoration-none" href="#">INTEL</a>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p class="h5 mb3">Colaboradores</p>
+                    <div class="mb-3">
+                        <a class="iconos text-white text-decoration-none" href="#">AMD</a>
+                    </div>
+                    <div class="mb-3">
+                        <a class="iconos text-white text-decoration-none" href="#">INTEL</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div> 
-    <!-- ends FOOTER -->
+        <!-- ends FOOTER -->
 </body>

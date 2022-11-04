@@ -3,7 +3,7 @@
 @import "_mixins";
 @import "_noticias";
 @import "_contacto";
-@import "_multimedia";
+@import "_guia-de-personajes";
 @import "_navbar";
 @import "../node_modules/bootstrap/scss/bootstrap";
 
@@ -68,51 +68,7 @@
 
 // --------------------termina multimedia-------------------------
 // inicia trabaja con nosotros
-.titulo-pagina {
-    font-size: 3rem;
-}
 
-.contenedor-trabajos {
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    padding: 40px 0;
-    display: flex;
-    gap: 20px;
-}
-
-.trabajo1 {
-    background-color: #394651;
-    width: 300px;
-    height: 300px;
-    border-radius: 10px;
-
-    h3 {
-        text-decoration: underline;
-        font-weight: 200;
-        letter-spacing: 5px;
-        margin: 10px;
-        color: #bcccdb;
-        font-size: 1rem;
-    }
-
-    p {
-        margin: 10px;
-        color: #b5b7b7;
-    }
-}
-
-.categorias-trabajo {
-    display: block;
-    font-size: 1.5rem;
-    position: relative;
-    text-decoration: underline;
-    font-weight: 200;
-    letter-spacing: 5px;
-    margin: 50px 0px 0px 300px;
-    color: #d9e7f5;
-}
 
 //termina trabaja con nosotros
 .card-text {

@@ -1,10 +1,12 @@
 main {
     background-color: rgba(0, 0, 0, 0.363);
 }
-.img-titulo img{
+
+.img-titulo img {
     display: none;
 }
-.ultimas-noticias{
+
+.ultimas-noticias {
     width: 100%;
     height: 35vh;
     display: flex;
@@ -12,16 +14,19 @@ main {
     justify-content: center;
     text-align: center;
 }
-h1{
-    text-align:center;
-    position: relative;
-    color: #fff;
-    font-size: 0.2rem;
-    background: rgb(1, 5, 62);
-    
+
+.card-body {
+    .card-title {
+        @include skill-text(1.3rem)
+    }
+
+    p {
+        @include skill-text(.8rem)
+    }
 }
+
 @media (min-width:768px) {
-    .ultimas-noticias{
+    .ultimas-noticias {
         width: 100%;
         height: 35vh;
         display: flex;
@@ -29,35 +34,36 @@ h1{
         justify-content: center;
         text-align: center;
     }
-    h1{
-        text-align:center;
-        position: relative;
-        color: #fff;
-        font-size: 0.8rem;
-        background-color: rgba(80, 6, 78, 0.802);
+
+    h1 {
+        @include skill-text(2rem)
     }
-    .card-texto{
+
+    .card-texto {
         color: #fff;
         height: 100%;
         width: 100%;
         font-size: 0.8rem;
         background-color: #050505a5;
-        position:relative;
-        text-align:left;
+        position: relative;
+        text-align: left;
     }
 
 }
-@media (min-width:1200px){
-    .img-titulo img{
+
+@media (min-width:1200px) {
+    .img-titulo img {
         position: absolute;
         display: block;
         width: 100%;
         height: 200px;
     }
+
     main {
         background-color: rgba(0, 0, 0, 0.363);
     }
-    #ultimas-noticias{
+
+    #ultimas-noticias {
         width: 100%;
         height: 35vh;
         display: flex;
@@ -65,8 +71,9 @@ h1{
         justify-content: center;
         text-align: center;
     }
-    h1{
-        text-align:center;
+
+    h1 {
+        text-align: center;
         position: relative;
         color: #fff;
         font-size: 2rem;
